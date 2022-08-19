@@ -56,7 +56,7 @@ body {
 }
 
 .tree-container span {
-  margin: 10px 0;
+  margin-top: 20px;
   font-size: 25px;
   font-weight: 600;
   color: rgb(96, 33, 13);
@@ -71,15 +71,13 @@ body {
 }
 
 .links-container .link {
-  width: 400px;
+  width: 90vw;
+  max-width: 400px;
   height: 49px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* border: 1px solid rgb(96, 33, 13); */
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   background: #efe7e1;
   border-radius: 2px;
